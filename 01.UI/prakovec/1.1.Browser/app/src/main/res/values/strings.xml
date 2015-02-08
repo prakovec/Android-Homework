@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyBrowser</string>
+    <string name="bGo">Go!</string>
+    <string name="bBack">Go Back</string>
+    <string name="bForward">Go forward</string>
+    <string name="bRefresh">Refresh page</string>
+    <string name="bHistory">History</string>
+    <string name="bBackActivity">ОК</string>
+</resources>

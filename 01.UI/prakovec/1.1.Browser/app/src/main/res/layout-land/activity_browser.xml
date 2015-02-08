@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+
+        <EditText
+            android:id="@+id/etURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="textUri"
+            />
+
+        <Button
+            android:id="@+id/bGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="@string/bGo"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_horizontal"
+        android:orientation="vertical"
+        android:weightSum="20"
+        >
+
+        <Button
+            android:id="@+id/bBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/bBack"
+            />
+
+        <Button
+            android:id="@+id/bForward"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/bForward"
+            />
+
+        <Button
+            android:id="@+id/bRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/bRefresh"
+            />
+
+        <Button
+            android:id="@+id/bHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/bHistory"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_horizontal"
+        android:layout_toRightOf="@+id/layout_vertical"
+        android:orientation="horizontal"
+        >
+
+        <WebView
+            android:id="@+id/wvBrowser"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

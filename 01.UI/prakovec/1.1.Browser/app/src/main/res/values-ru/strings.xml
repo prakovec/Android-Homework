@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyBrowser</string>
+    <string name="bGo">Перейти</string>
+    <string name="bBack">Назад</string>
+    <string name="bForward">Вперед</string>
+    <string name="bRefresh">Обновить</string>
+    <string name="bHistory">История</string>
+    <string name="bBackActivity">Хорошо</string>
+</resources>
