@@ -1,0 +1,5 @@
+<resources>
+<string name="app_name">Link Viewer</string>
+<string name="go">Go!</string>
+<string name="msg_empty_link">URL can not be empty!</string>
+</resources>
