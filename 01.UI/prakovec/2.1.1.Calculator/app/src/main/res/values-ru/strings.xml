@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" >Калькулятор</string>
+    <string name="plus" >Сложить</string>
+    <string name="minus" >Вычесть</string>
+    <string name="multiply" >Перемножить</string>
+    <string name="divided" >Разделить</string>
+    <string name="calculate" >Результат</string>
+    <string name="result">Ответ: %.2f</string>
+    <string name="msg_operator_empty">Оператор не выбран!</string>
+    <string name="msg_incorrect_data">Некорректные данные!</string>
+    <string name="title_dialog_error">Ошибка %s!</string>
+    <string name="msg_dialog_error" formatted="false">Операция %s с аперандами %.2f и %.2f запрещена!</string>
+</resources>

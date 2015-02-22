@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="plus">Plus</string>
+    <string name="minus">Minus</string>
+    <string name="multiply">Multiply</string>
+    <string name="divided">Divided</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result: %.2f</string>
+    <string name="msg_operator_empty">Operator is not selected!</string>
+    <string name="msg_incorrect_data">Incorrect data!</string>
+ <string name="title_dialog_error">Error %s!</string>
+    <string name="msg_dialog_error" formatted="false">Operation %s with operands %.2f and %.2f incorrect!</string>
+</resources>
